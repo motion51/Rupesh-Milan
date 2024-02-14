@@ -1,4 +1,24 @@
 @media screen and (max-width: 1024px){
+    /* Menu Page CSS */
+    .menu_page_main_content {
+        flex-direction: column-reverse;
+    }
+
+    .menu_page_main_content {
+        height: 90%;
+    }
+
+    .menu_page_main_content_videos {
+        width: 100%;
+        height: 60%;
+    }
+
+    .menu_page_main_content_menuitems {
+        width: 100%;
+        height: 40%;
+    }
+    
+    /* Menu Page CSS */
     .main_content{
         width: 85%;
         height: 80%;
@@ -44,6 +64,34 @@
         font-size: 1.55vh;
     }
 
+    .page4_box{
+        flex-direction: column;
+    }
+
+    .page4_box_text{
+        width: 90%;
+        height: 40%;
+    }
+    .page4_box_text_innerbox{
+        width: 100%;
+    }
+
+    .page4_box h4 {
+        font-size: 1.3vh;
+    }
+
+    .page4_box_text h4{
+        font-family: inter;
+        font-size: 1.55vh;
+        font-weight: 500;
+    }
+
+    .page4_box_video{
+        width: 100%;
+        height: 60%;
+    }
+    
+
     #craft_story{
         font-size: 12vh;
     }
@@ -52,6 +100,13 @@
 
 
   @media screen and (max-width: 768px){
+
+    .loader h2{
+        color: white;
+        font-family: inter;
+        font-size: 5vh;
+    }
+
     .job_content {
         width: 50%;
     }
@@ -66,6 +121,10 @@
         display: block;
         width: fit-content;
     }
+
+    /* .page4_box h4 {
+        font-size: 2.14vh;
+    } */
   }
 
   @media screen and (max-width: 500px){

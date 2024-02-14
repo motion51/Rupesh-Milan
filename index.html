@@ -8,12 +8,46 @@
     <link rel="shortcut icon" href="Favicon/rupeshmilan.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
+    <div class="loader">
+        <h2>Render<span class="chars">i</span><span class="chars">n</span><span class="chars">g</span><span class="chars">.</span><span class="chars">.</span><span class="chars">.</span></h2>
+    </div>
+    <div class="menu_page">
+        <div class="menu_page_main">
+            <h5 class="close_menu">Close Menu</h5>
+        <div class="menu_page_main_content">
+            <div class="menu_page_main_content_videos">
+                <video autoplay muted loop width="90%" height="45%">
+                    <source src="video/Introduction_Video.mp4" type="video/mp4">
+                </video>
+                <video autoplay muted loop width="90%" height="45%">
+                    <source src="video/Portfolio1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="menu_page_main_content_menuitems">
+                <div class="menu_page_main_content_menuitems1">
+                    <ul>
+                        <li> <a href="index.html" id="home">Home</a> </li>
+                        <li> <a href="videos.html">Videos</a> </li>
+                        <li> <a href="#">Download Resume</a> </li>
+                    </ul>
+                </div>
+                <div class="menu_page_main_content_menuitems2">
+                    <h5>email: milanrupesh0001@gmail.com</h5>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
     <div id="main">
         <div id="nav">
-            <img src="Logo/Rupesh Milan.svg" alt="">
+            <a href="index.html">
+                <img src="Logo/Rupesh Milan.svg" alt="Rupesh Milan">
+            </a>
+           
             <div id="navline">
                 <div id="undernavline"></div>
             </div>
@@ -60,9 +94,16 @@
                     <div class="page3_content_text">
                         <div class="page3_content_text_innerbox">
                             <h4>
-                                Hello, I'm Rupesh Milan, a seasoned video editor with a rich 4-year background, specializing in a diverse array of content. From engaging Podcasts and Educational Tutorials to dynamic Explainer and Review videos, I've crafted compelling content across genres. My portfolio includes Livestreams, Vlogs, Gaming, Brand, Product, Unboxing, and Testimonial videos. Whether it's a Product Demo, Baking, DIY, Behind-the-Scenes, Challenge, or Business Results, I bring expertise to every frame. Let's collaborate to bring your vision to life. I'm Rupesh Milan, your trusted video editing partner, dedicated to enhancing your content and making it truly exceptional.</h4>
+                                Hello, I'm Rupesh Milan, a seasoned video editor with a rich 4-year background,
+                                specializing in a diverse array of content. From engaging Podcasts and Educational
+                                Tutorials to dynamic Explainer and Review videos, I've crafted compelling content across
+                                genres. My portfolio includes Livestreams, Vlogs, Gaming, Brand, Product, Unboxing, and
+                                Testimonial videos. Whether it's a Product Demo, Baking, DIY, Behind-the-Scenes,
+                                Challenge, or Business Results, I bring expertise to every frame. Let's collaborate to
+                                bring your vision to life. I'm Rupesh Milan, your trusted video editing partner,
+                                dedicated to enhancing your content and making it truly exceptional.</h4>
                         </div>
-                        
+
                     </div>
                     <div class="page3_content_video">
                         <video id="video1" src="video/Portfolio1.mp4" autoplay loop muted></video>
@@ -76,17 +117,51 @@
 
         <div id="page4">
             <div class="page4_box">
-                <h4>As a video editor, I've had the privilege of crafting numerous videos for diverse clients. However, the reality is that each client brings their unique vision and content, making it challenging to showcase the entirety of my editing prowess. Yet, amidst this variability, I've honed my skills across a spectrum of projects, from advertisements to YouTube content, weddings to corporate videos, and beyond. This breadth of experience has not only refined my technical abilities but also equipped me with the adaptability to seamlessly navigate through various industries and styles.</h4>
+                <div class="page4_box_text">
+                    <div class="page4_box_text_innerbox">
+                        <h4>As a video editor, I've had the privilege of crafting numerous videos for diverse clients. However,
+                            the reality is that each client brings their unique vision and content, making it challenging to
+                            showcase the entirety of my editing prowess. Yet, amidst this variability, I've honed my skills
+                            across a spectrum of projects, from advertisements to YouTube content, weddings to corporate videos,
+                            and beyond. This breadth of experience has not only refined my technical abilities but also equipped
+                            me with the adaptability to seamlessly navigate through various industries and styles.</h4>
+                    </div>
+                    
+                </div>
+                <div class="page4_box_video">
+                    <!-- <iframe src="https://player.vimeo.com/video/912630188?h=f9f54d1d60" width="95%" height="40%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+                    <!-- <iframe src="https://player.vimeo.com/video/912630188?h=f9f54d1d60?controls=0" width="95%" height="40%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+                    <video autoplay muted loop width="95%" height="40%">
+                        <source src="video/Introduction_Video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video autoplay muted loop width="95%" height="40%">
+                        <source src="video/Portfolio1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <a href="/videos.html" style="text-align: right;">View Videos</a>
+                </div>
             </div>
         </div>
         <div id="page5">
-            <h2>Softwares i Uses...</h2>
+            <h2 id="software_text">Softwares i Uses...</h2>
             <div class="page5_main_content">
                 <div class="page5_main_content1">
                     <h2>Video Editing</h2>
+                    <div class="video_editing_parent">
+                        <img class="video_editing_logo" src="Logo/premierepro.webp" alt="Adobe Premiere Pro">
+                        <img class="video_editing_logo" src="Logo/aftereffects.webp" alt="Adobe Premiere Pro">
+                        <img class="video_editing_logo" src="Logo/davinciresolve.webp" alt="Davinci Resolve">
+                    </div>
                 </div>
                 <div class="page5_main_content2">
                     <h2>Graphic Designing</h2>
+                    <div class="graphic_designing_logo_parent">
+                        <img class="graphic_designing_logo" src="Logo/photoshop.webp" alt="Adobe Photoshop">
+                        <img class="graphic_designing_logo" src="Logo/adobeIllustrator.webp" alt="Adobe Illustrator">
+                        <img class="graphic_designing_logo" src="Logo/figma.webp" alt="Figma">
+                        <img class="graphic_designing_logo" src="Logo/canva.webp" alt="Canva">
+                    </div>
                 </div>
             </div>
         </div>
@@ -94,7 +169,7 @@
 
 
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/b28e74466e.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/split-type"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
