@@ -37,7 +37,7 @@ gsap.to("#craft_story",{
         start: "top 0%",
         end: "top -50%",
         scrub: 3,
-        markers: true,
+        // markers: true,
         pin: "#page2",
         pinSpacing: false
     }
@@ -74,7 +74,7 @@ const page5 = gsap.timeline({
         trigger: "#page5",
         start: "top 80%",
         end: "top 15%",
-        markers: true,
+        // markers: true,
         scrub: 2
     }
 })
