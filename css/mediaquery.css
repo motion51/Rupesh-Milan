@@ -106,6 +106,10 @@
     }
     /* videos.html page videos ends */
 
+    .page1_video i {
+        font-size: 4vh;
+    }
+
     #craft_story{
         font-size: 12vh;
     }
