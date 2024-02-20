@@ -104,11 +104,23 @@
     .page1_video {
         width: 95%;
     }
-    /* videos.html page videos ends */
 
     .page1_video i {
         font-size: 4vh;
     }
+
+    .page1_yt_video{
+        width: 90%;
+        height: 40%;
+    }
+
+    .page1_youtube_videos_text h2 {
+        font-size: 0.85rem;
+    }
+
+    /* videos.html page videos ends */
+
+    
 
     #craft_story{
         font-size: 12vh;
